@@ -277,7 +277,7 @@ function fillScene() {
 					
 	}
 
-	var teapot = new THREE.Mesh(
+	/*var*/ teapot = new THREE.Mesh(
 		new THREE.TeapotGeometry( teapotSize, tess, true, true, true, true ),
 		wire ? wireMaterial : (
 		flat ?
